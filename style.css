@@ -5,6 +5,7 @@
     --secondary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --primary-color: #fff;
     --secondary-color: #9FA0A2;
+    --body-color: #1A1C20;
 }
 
 * {
@@ -21,8 +22,8 @@
 
 body {
     font-family: var(--primary-font);
-    color: #fff;
-    background: #1A1C20;
+    color: var(--primary-color);
+    background: var(--body-color);
 }
 
 
