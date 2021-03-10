@@ -77,7 +77,7 @@ a {
     font-size: 13px;
 }
 
-.secondary-font {
+.subtitle {
     font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 1.25em;
