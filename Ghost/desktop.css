@@ -1,0 +1,49 @@
+.navbar .right ul{
+    display: flex;  
+}
+
+.card-1 {
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcome-img {
+    width: 679px;
+    height: 380px;
+    margin-right: 2rem;
+}
+
+.card-content .title{
+    font-size: 1.375rem;
+}
+
+.card-content p {
+    font-size: 1.125rem;
+}
+
+.middle {
+    display: flex;
+}
+
+.middle .card,
+.other .card {
+    width: 100%;
+}
+
+.middle .card + .card, 
+.other .card + .card {
+    margin-left: 1rem;
+}
+
+.other {
+    display: flex;
+}
+
+.other .card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.other .card-content p {
+    min-height: 100px;
+}
