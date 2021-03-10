@@ -2,3 +2,4 @@
 
 ## Preview 
 
+![BLOG TEMPLATE](./images/ghost_preview.png)
